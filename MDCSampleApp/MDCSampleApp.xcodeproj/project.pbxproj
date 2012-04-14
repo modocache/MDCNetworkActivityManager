@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC0DAA615396D0400DEDC9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC0DAA515396D0400DEDC9C /* UIKit.framework */; };
+		DAC0DAA815396D0400DEDC9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC0DAA715396D0400DEDC9C /* Foundation.framework */; };
+		DAC0DAAA15396D0400DEDC9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC0DAA915396D0400DEDC9C /* CoreGraphics.framework */; };
+		DAC0DAB015396D0400DEDC9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAC0DAAE15396D0400DEDC9C /* InfoPlist.strings */; };
+		DAC0DAB215396D0400DEDC9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DAB115396D0400DEDC9C /* main.m */; };
+		DAC0DABE15396D0400DEDC9C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC0DABD15396D0400DEDC9C /* SenTestingKit.framework */; };
+		DAC0DABF15396D0400DEDC9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC0DAA515396D0400DEDC9C /* UIKit.framework */; };
+		DAC0DAC015396D0400DEDC9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC0DAA715396D0400DEDC9C /* Foundation.framework */; };
+		DAC0DAC815396D0400DEDC9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAC0DAC615396D0400DEDC9C /* InfoPlist.strings */; };
+		DAC0DACB15396D0400DEDC9C /* MDCSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DACA15396D0400DEDC9C /* MDCSampleAppTests.m */; };
+		DAC0DAE21539702100DEDC9C /* MDCNetworkActivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DAE11539702100DEDC9C /* MDCNetworkActivityManager.m */; };
+		DAC0DAE31539702100DEDC9C /* MDCNetworkActivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DAE11539702100DEDC9C /* MDCNetworkActivityManager.m */; };
+		DAC0DAFB15397EBD00DEDC9C /* MDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DAFA15397EBD00DEDC9C /* MDCAppDelegate.m */; };
+		DAC0DAFC15397EBD00DEDC9C /* MDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DAFA15397EBD00DEDC9C /* MDCAppDelegate.m */; };
+		DAC0DB0015397EEF00DEDC9C /* MDCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DAFE15397EEF00DEDC9C /* MDCRootViewController.m */; };
+		DAC0DB0115397EEF00DEDC9C /* MDCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DAFE15397EEF00DEDC9C /* MDCRootViewController.m */; };
+		DAC0DB0B15397F3500DEDC9C /* MDCRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC0DB0A15397F3500DEDC9C /* MDCRootViewController.xib */; };
+		DAC0DB0C15397F3500DEDC9C /* MDCRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC0DB0A15397F3500DEDC9C /* MDCRootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC0DAC115396D0400DEDC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC0DA9815396D0400DEDC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC0DAA015396D0400DEDC9C;
+			remoteInfo = MDCSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAC0DAA115396D0400DEDC9C /* MDCSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDCSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC0DAA515396D0400DEDC9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DAC0DAA715396D0400DEDC9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAC0DAA915396D0400DEDC9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAC0DAAD15396D0400DEDC9C /* MDCSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDCSampleApp-Info.plist"; sourceTree = "<group>"; };
+		DAC0DAAF15396D0400DEDC9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAC0DAB115396D0400DEDC9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAC0DAB315396D0400DEDC9C /* MDCSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDCSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		DAC0DABC15396D0400DEDC9C /* MDCSampleAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDCSampleAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC0DABD15396D0400DEDC9C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DAC0DAC515396D0400DEDC9C /* MDCSampleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDCSampleAppTests-Info.plist"; sourceTree = "<group>"; };
+		DAC0DAC715396D0400DEDC9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAC0DAC915396D0400DEDC9C /* MDCSampleAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCSampleAppTests.h; sourceTree = "<group>"; };
+		DAC0DACA15396D0400DEDC9C /* MDCSampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCSampleAppTests.m; sourceTree = "<group>"; };
+		DAC0DAE01539702100DEDC9C /* MDCNetworkActivityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MDCNetworkActivityManager.h; path = ../../MDCNetworkActivityManager.h; sourceTree = "<group>"; };
+		DAC0DAE11539702100DEDC9C /* MDCNetworkActivityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MDCNetworkActivityManager.m; path = ../../MDCNetworkActivityManager.m; sourceTree = "<group>"; };
+		DAC0DAF915397EBD00DEDC9C /* MDCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCAppDelegate.h; sourceTree = "<group>"; };
+		DAC0DAFA15397EBD00DEDC9C /* MDCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCAppDelegate.m; sourceTree = "<group>"; };
+		DAC0DAFD15397EEF00DEDC9C /* MDCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCRootViewController.h; sourceTree = "<group>"; };
+		DAC0DAFE15397EEF00DEDC9C /* MDCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCRootViewController.m; sourceTree = "<group>"; };
+		DAC0DB0A15397F3500DEDC9C /* MDCRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDCRootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC0DA9E15396D0400DEDC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC0DAA615396D0400DEDC9C /* UIKit.framework in Frameworks */,
+				DAC0DAA815396D0400DEDC9C /* Foundation.framework in Frameworks */,
+				DAC0DAAA15396D0400DEDC9C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC0DAB815396D0400DEDC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC0DABE15396D0400DEDC9C /* SenTestingKit.framework in Frameworks */,
+				DAC0DABF15396D0400DEDC9C /* UIKit.framework in Frameworks */,
+				DAC0DAC015396D0400DEDC9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC0DA9615396D0400DEDC9C = {
+			isa = PBXGroup;
+			children = (
+				DAC0DAAB15396D0400DEDC9C /* MDCSampleApp */,
+				DAC0DAC315396D0400DEDC9C /* MDCSampleAppTests */,
+				DAC0DAA415396D0400DEDC9C /* Frameworks */,
+				DAC0DAA215396D0400DEDC9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC0DAA215396D0400DEDC9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DAA115396D0400DEDC9C /* MDCSampleApp.app */,
+				DAC0DABC15396D0400DEDC9C /* MDCSampleAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC0DAA415396D0400DEDC9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DAA515396D0400DEDC9C /* UIKit.framework */,
+				DAC0DAA715396D0400DEDC9C /* Foundation.framework */,
+				DAC0DAA915396D0400DEDC9C /* CoreGraphics.framework */,
+				DAC0DABD15396D0400DEDC9C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAC0DAAB15396D0400DEDC9C /* MDCSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DAF715397EBD00DEDC9C /* Controllers */,
+				DAC0DAF815397EBD00DEDC9C /* Delegate */,
+				DAC0DB0915397F3500DEDC9C /* Resources */,
+				DAC0DAE01539702100DEDC9C /* MDCNetworkActivityManager.h */,
+				DAC0DAE11539702100DEDC9C /* MDCNetworkActivityManager.m */,
+				DAC0DAAC15396D0400DEDC9C /* Supporting Files */,
+			);
+			path = MDCSampleApp;
+			sourceTree = "<group>";
+		};
+		DAC0DAAC15396D0400DEDC9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DAAD15396D0400DEDC9C /* MDCSampleApp-Info.plist */,
+				DAC0DAAE15396D0400DEDC9C /* InfoPlist.strings */,
+				DAC0DAB115396D0400DEDC9C /* main.m */,
+				DAC0DAB315396D0400DEDC9C /* MDCSampleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAC0DAC315396D0400DEDC9C /* MDCSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DAC915396D0400DEDC9C /* MDCSampleAppTests.h */,
+				DAC0DACA15396D0400DEDC9C /* MDCSampleAppTests.m */,
+				DAC0DAC415396D0400DEDC9C /* Supporting Files */,
+			);
+			path = MDCSampleAppTests;
+			sourceTree = "<group>";
+		};
+		DAC0DAC415396D0400DEDC9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DAC515396D0400DEDC9C /* MDCSampleAppTests-Info.plist */,
+				DAC0DAC615396D0400DEDC9C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAC0DAF715397EBD00DEDC9C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DAFD15397EEF00DEDC9C /* MDCRootViewController.h */,
+				DAC0DAFE15397EEF00DEDC9C /* MDCRootViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DAC0DAF815397EBD00DEDC9C /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DAF915397EBD00DEDC9C /* MDCAppDelegate.h */,
+				DAC0DAFA15397EBD00DEDC9C /* MDCAppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		DAC0DB0915397F3500DEDC9C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DB0A15397F3500DEDC9C /* MDCRootViewController.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC0DAA015396D0400DEDC9C /* MDCSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC0DACE15396D0400DEDC9C /* Build configuration list for PBXNativeTarget "MDCSampleApp" */;
+			buildPhases = (
+				DAC0DA9D15396D0400DEDC9C /* Sources */,
+				DAC0DA9E15396D0400DEDC9C /* Frameworks */,
+				DAC0DA9F15396D0400DEDC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDCSampleApp;
+			productName = MDCSampleApp;
+			productReference = DAC0DAA115396D0400DEDC9C /* MDCSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAC0DABB15396D0400DEDC9C /* MDCSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC0DAD115396D0400DEDC9C /* Build configuration list for PBXNativeTarget "MDCSampleAppTests" */;
+			buildPhases = (
+				DAC0DAB715396D0400DEDC9C /* Sources */,
+				DAC0DAB815396D0400DEDC9C /* Frameworks */,
+				DAC0DAB915396D0400DEDC9C /* Resources */,
+				DAC0DABA15396D0400DEDC9C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC0DAC215396D0400DEDC9C /* PBXTargetDependency */,
+			);
+			name = MDCSampleAppTests;
+			productName = MDCSampleAppTests;
+			productReference = DAC0DABC15396D0400DEDC9C /* MDCSampleAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC0DA9815396D0400DEDC9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MDC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Gree, Inc.";
+			};
+			buildConfigurationList = DAC0DA9B15396D0400DEDC9C /* Build configuration list for PBXProject "MDCSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAC0DA9615396D0400DEDC9C;
+			productRefGroup = DAC0DAA215396D0400DEDC9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC0DAA015396D0400DEDC9C /* MDCSampleApp */,
+				DAC0DABB15396D0400DEDC9C /* MDCSampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC0DA9F15396D0400DEDC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC0DAB015396D0400DEDC9C /* InfoPlist.strings in Resources */,
+				DAC0DB0B15397F3500DEDC9C /* MDCRootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC0DAB915396D0400DEDC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC0DAC815396D0400DEDC9C /* InfoPlist.strings in Resources */,
+				DAC0DB0C15397F3500DEDC9C /* MDCRootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAC0DABA15396D0400DEDC9C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC0DA9D15396D0400DEDC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC0DAB215396D0400DEDC9C /* main.m in Sources */,
+				DAC0DAE21539702100DEDC9C /* MDCNetworkActivityManager.m in Sources */,
+				DAC0DAFB15397EBD00DEDC9C /* MDCAppDelegate.m in Sources */,
+				DAC0DB0015397EEF00DEDC9C /* MDCRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC0DAB715396D0400DEDC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC0DACB15396D0400DEDC9C /* MDCSampleAppTests.m in Sources */,
+				DAC0DAE31539702100DEDC9C /* MDCNetworkActivityManager.m in Sources */,
+				DAC0DAFC15397EBD00DEDC9C /* MDCAppDelegate.m in Sources */,
+				DAC0DB0115397EEF00DEDC9C /* MDCRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAC0DAC215396D0400DEDC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC0DAA015396D0400DEDC9C /* MDCSampleApp */;
+			targetProxy = DAC0DAC115396D0400DEDC9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAC0DAAE15396D0400DEDC9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC0DAAF15396D0400DEDC9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DAC0DAC615396D0400DEDC9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC0DAC715396D0400DEDC9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC0DACC15396D0400DEDC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC0DACD15396D0400DEDC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC0DACF15396D0400DEDC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCSampleApp/MDCSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "MDCSampleApp/MDCSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAC0DAD015396D0400DEDC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCSampleApp/MDCSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "MDCSampleApp/MDCSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DAC0DAD215396D0400DEDC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MDCSampleApp.app/MDCSampleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCSampleApp/MDCSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "MDCSampleAppTests/MDCSampleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DAC0DAD315396D0400DEDC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MDCSampleApp.app/MDCSampleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCSampleApp/MDCSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "MDCSampleAppTests/MDCSampleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC0DA9B15396D0400DEDC9C /* Build configuration list for PBXProject "MDCSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC0DACC15396D0400DEDC9C /* Debug */,
+				DAC0DACD15396D0400DEDC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC0DACE15396D0400DEDC9C /* Build configuration list for PBXNativeTarget "MDCSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC0DACF15396D0400DEDC9C /* Debug */,
+				DAC0DAD015396D0400DEDC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC0DAD115396D0400DEDC9C /* Build configuration list for PBXNativeTarget "MDCSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC0DAD215396D0400DEDC9C /* Debug */,
+				DAC0DAD315396D0400DEDC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC0DA9815396D0400DEDC9C /* Project object */;
+}
