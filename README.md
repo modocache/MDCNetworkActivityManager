@@ -1,4 +1,4 @@
-# MDCNetworkActivityManager
+# MDCNetworkActivityManager [![endorse](http://api.coderwall.com/modocache/endorsecount.png)](http://coderwall.com/modocache)
 
 A singleton class which manages requests to UIApplication's
 network activity indicator, allowing the user to increment/decrement
